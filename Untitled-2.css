@@ -1,0 +1,239 @@
+.tete{
+background-color: #f4649f;
+display: flex;
+flex-direction: row;
+height: 70px;
+text-decoration: none;
+justify-content: space-between;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: -10px;
+margin-top: -10px;
+}
+.entete {
+    color: #fff;
+    justify-content: space-between;
+}
+.brand-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buttons{
+    margin: 10px 10px 10px 10px  auto;
+    text-align: center;
+
+}
+.button1 { 
+    background: #7832D9;
+    color: #fff;
+    transition: 0.8s;
+    min-width: 180px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    }
+    
+.button2 {
+    background: #f4649f;
+    color: #fff;
+    transition: 0.8s;
+    min-width: 180px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+
+}
+.button3{
+    background: #8593CC;
+    color: #fff;
+    transition: 0.8s;
+    min-width: 180px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 70px 30px 10px 30px;   
+    border-radius: 5px ; 
+    padding-top: 20px;
+    transition: 0.8s;
+}
+
+.buttons .button1:hover , .buttons .button1:focus { background-color: #7832D9;}
+.brand-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 60vh;
+    background: transparent;
+}
+.brand .brand-container .left-column,
+.brand .brand-container .right-column {
+    height: 570px;
+}
+
+.brand .brand-container .left-column {
+    margin: 90px 85px 60px 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 50px;
+    color: #0a0909;  
+    
+}
+.brand .brand-container .right-column img{
+    height: 720px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.brand .brand-container .right-column {
+    width: 30px; 
+    margin: 10px 500px 0 0px;
+    
+}
+.cards-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills-section{
+    background: #24124B;
+    padding: 40px 0;
+    color: #fff;
+}
+.skills-card {
+    width: 14rem;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.925);
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px;
+    color: #0a0909;
+}
+.contact-me-section{
+    width: 100%;
+    height: 400px;
+    background-color: #353658;
+    padding: 50px 0px;
+
+}
+
+.text-center{
+    text-align: center !important;
+    color: aliceblue;
+}
+.h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.contact-me-container{
+    width: 80%;
+    margin: 0px auto;
+}
+.form{
+    display: block;
+    margin-top: 0em;
+}
+.contact-me-container .input-row{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.input-col1 {
+    width: 50%;
+    padding: 0px 10px;
+    margin-left: 180px;
+}
+
+.input-col1 .input{
+    width: 100%;
+    
+}
+
+.input-col2{
+    width: 100%;
+    padding: 0px 10px;
+    margin-left: 180px;
+    
+}
+.input-col2 .input{
+    width: 100%;
+}
+.btn-row{
+    width: 100%;
+    height: 50px;
+    justify-content: end;
+    text-align: right;
+    background: transparent;
+}
+.my-projects{
+    padding: 40px 0;
+    background: transparent;
+}
+.my-projects .h1{
+    font-size: 70px;
+}
+.cards-container{
+    width: 80%;
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+}
+.cards-container .card{
+    width: 30rem ;
+    min-width: 18rem;
+    box-shadow: 0 0 8px rgb(0 0 0 /40%);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 8px ;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.cards-container .card img{
+    width: 480px;
+}
+.cards-container .card .card-body{
+    padding: 12px;
+
+}
+.cards-container .card .card-body .card-title{
+    font-size :24px ;
+    margin: 4px 0 ;
+
+}
+.botblock-section{
+    width: 100%;
+    height: 120px;
+    background-color: #24124B;
+    padding: 50px 0px;
+
+}
+.botblock-container{
+    width: 80%;
+    margin: 0px auto;
+}
+.botblock-section .botblock-container .bot .h3{
+    margin: 50px 50px 50px 50px;
+    
+}
+.butt4{
+    background: #8593CC;
+    color: #fff;
+    transition: 0.8s;
+    min-width: 50px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 30px 10px 1020px;    
+    border-radius: 50%;
+}
